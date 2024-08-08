@@ -1,0 +1,86 @@
+[
+  {
+    "id": 2,
+    "name": "Đỗ Đức Minh ",
+    "ngaysinh": "09/03/2002",
+    "email": "example@example.com",
+    "phone": "0603259722",
+    "diachi": "Hà Nội",
+    "trinhdo": "Đại học",
+    "role": "Quản lý",
+    "img": "https://i.imgur.com/nGvoUSc.png",
+    "username": "doducminh",
+    "password": "123456"
+  },
+  {
+    "id": 3,
+    "name": "Dương Trường Phong",
+    "ngaysinh": "16/10/2002",
+    "email": "example@example.com",
+    "phone": "123-456-7890",
+    "diachi": "Hà Nội",
+    "trinhdo": "Đại học",
+    "role": "Nhân viên",
+    "img": "https://i.imgur.com/HdTQ7qh.png",
+    "username": "duongtruongphong",
+    "password": "123456"
+  },
+  {
+    "id": 4,
+    "name": "Nguyễn Thành Minh",
+    "ngaysinh": "22/6/2002",
+    "email": "nguyenthanhminh@example.com",
+    "phone": "123-456-7890",
+    "diachi": "Vụ Bản - Nam Định",
+    "trinhdo": "Đại học",
+    "role": "Nhân viên",
+    "img": "https://i.imgur.com/G0QUH9X.png",
+    "username": "nguyenthanhminh",
+    "password": "123456"
+  },
+  {
+    "id": 5,
+    "name": "Mạch Thị Nhung",
+    "ngaysinh": "15-10-2002",
+    "email": "example@example.com",
+    "phone": "123-456-7890",
+    "diachi": "Hà Nội",
+    "trinhdo": "Đại học",
+    "role": "Nhân viên",
+    "img": "https://i.imgur.com/0rNAsas.png",
+    "username": "machthinhung",
+    "password": "123456"
+  },
+  {
+    "id": 6,
+    "name": "Đồng Duy Nam",
+    "ngaysinh": "05-06-2002",
+    "email": "example@example.com",
+    "phone": "123-456-7890",
+    "diachi": "Hà Nội",
+    "trinhdo": "Đại học",
+    "role": "Nhân viên",
+    "img": "https://i.imgur.com/DVuBN2o.png",
+    "username": "dongduynam",
+    "password": "123456"
+  },
+  {
+    "id": 7,
+    "name": "Lê Kim Mỹ",
+    "ngaysinh": "7-9-2002",
+    "email": "example@example.com",
+    "phone": "123-456-7890",
+    "diachi": "Hà Nội",
+    "trinhdo": "Đại học",
+    "role": "Nhân viên",
+    "img": "https://i.imgur.com/htsJDY1.png",
+    "username": "lekimmy",
+    "password": "123456"
+  },
+  {
+    "id": 8,
+    "role": "Nhân viên",
+    "username": "nguyenquocloc",
+    "password": "123456789"
+  }
+]

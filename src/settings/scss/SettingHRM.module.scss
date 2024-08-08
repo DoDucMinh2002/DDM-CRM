@@ -1,0 +1,184 @@
+.settingHRMContainer {
+    // padding: 20px;
+    width: 100%;
+    position: relative;
+    background-color: antiquewhite;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    padding: 20px 100px;
+    flex-direction: column;
+}
+
+.employeeList {
+    display: flex;
+    margin-bottom: 28px;
+    max-width: 800px;
+    overflow-y: auto;
+    align-items: center;
+    border-left: 2px solid;
+    border-right: 2px solid;
+    padding-left: 15px;
+    // background-color: white;
+}
+
+.employeeItem {
+    display: flex;
+    border: 3px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    height: 70px;
+    margin-right: 25px;
+    flex-direction: row;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.employeeItem:hover {
+    background-color: #f0f0f0;
+}
+
+.employeeDetails {
+    // flex: 1;
+    border: 3px solid #ccc;
+    border-radius: 15px;
+    padding: 0;
+    // max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-out, padding 0.5s ease-out;
+    background-color: white;
+}
+
+.show {
+    padding: 30px;
+    width: 70%;
+}
+.input{
+    width: 240px;
+    margin-bottom: 15px;
+}
+.button{
+    margin-left: auto;
+}
+.buttonx{
+    margin-left: auto;
+    width: 48px;
+    height: 34px;
+    border-radius: 12px;
+    background-color: #ff606f;
+    color: white;
+    border: none;
+}
+.buttonx:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid;
+}
+.addEmployeeModal {
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 45.8%;
+    transform: translateX(-50%);
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 40%;
+    margin-top: 30px;
+}
+
+.addEmployeeModal.show {
+    display: block;
+}
+
+.modalContent {
+    max-width: 630px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    color: #aaa;
+}
+
+.modalContent h2 {
+    margin-bottom: 10px;
+}
+
+.modalContent form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.modalContent form input {
+    width: calc(100% - 20px);
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+}
+
+.modalContent form button {
+    margin-top: 10px;
+    padding: 8px 16px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+}
+
+.modalContent form button:first-of-type {
+    margin-right: 10px;
+    background-color: #28a745;
+}
+
+.modalContent form button:hover {
+    opacity: 0.8;
+}
+.img {
+    width: 400px;
+    height: 450px;
+}
+.buttonTM{
+    margin-left: auto;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    background-color: #3030d9;
+    color: white;
+    border: none;
+    width: 171px;
+    height: 36px;
+}
+.buttonTM:hover {
+    background-color: white;
+    color: black;
+    border: 3px solid black;
+}
+.buttonQL{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 174px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #3030d9;
+    color: white;
+    border: 3px solid black;
+    width: 70px;
+    height: 36px;
+
+}
+.buttonQL:hover{
+    background-color: white;
+    color: black;
+}

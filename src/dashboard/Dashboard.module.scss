@@ -1,0 +1,30 @@
+.div {
+  display: block;
+  text-align: center;
+  // padding-top: 15px;
+  background: #F7F7F7;
+  height: 100vh;
+}
+
+.divG{
+  display: inline-flex;
+  width: 80%;
+  margin-top: 31px;
+}
+.divGd {
+  display: inline-flex;
+    width: 80%;
+    margin-top: 15px;
+}
+.last {
+  width: 100%;
+  height: 50px;
+  background-color: rgb(42, 63, 84);
+  margin-top: 49px;
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}

@@ -1,0 +1,88 @@
+.liw {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-bottom: 0.2px solid;
+    height: 80px;
+}
+.button1 {
+    width: 100%;
+    height: 50px;
+    margin-top: 440px;
+    background-color: #6b7d8f;
+    color: #f8f9fa;
+}
+.button1:hover {
+    color: red;
+    background-color: rgb(87, 78, 136);
+}
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 17%;
+    height: 86px;
+    border: none;
+    background-color: #6b7d8f;
+    color: #f8f9fa;
+}
+.button:hover{
+    color: red;
+    background-color: rgb(87, 78, 136);
+}
+.li {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+.img {
+    margin-bottom: 10px;
+    border-radius: 51%;
+    height: 100%;
+    width: 25%;
+    border: 2px solid;
+    margin: 8px;
+    
+}
+.link {
+    display: flex;
+    justify-content: center;
+    border: 2.6px solid black;
+    border-radius: 8px;
+    width: 230px;
+    height: 44px;
+    align-items: center;
+    text-decoration: none;
+    color: #f8f9fa;
+    background-color: rgba(255, 123, 0, 0.336);
+    font-size: 20px;
+}
+.link:hover {
+    background-color: white;
+    color: black;
+}
+.linkTQ {
+    color: black;
+    text-decoration: none;
+    margin-bottom: 15px;
+    color: #f8f9fa;
+    padding-top: 10px;
+    font-size: 30px;
+}
+.linkTQ:hover {
+    color: red;
+}
+.h4 {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid white;
+    padding-top: 33px;
+    color: #f8f9fa;
+    font-size: 15px;
+}
+.h4:hover {
+    color: red;
+    border-bottom: 2px solid red;
+}
