@@ -150,13 +150,13 @@ const Customers = () => {
         >
           Thêm Khách hàng
         </Button>
-        <Button
+        {/* <Button
           variant="primary"
           onClick={() => handleOpenModal()}
           className={customerStyles.buttonVip}
         >
           Khách hàng Vip
-        </Button>
+        </Button> */}
       </div>
 
       <div style={{ paddingLeft: "50px", paddingRight: "50px" }}>
