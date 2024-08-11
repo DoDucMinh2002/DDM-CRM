@@ -157,7 +157,7 @@ const Orders = () => {
               backgroundColor:
                 selectedOrderType === "Đơn hàng nhập kho"
                   ? "aliceblue"
-                  : "#6c757d",
+                  : "antiquewhite",
             }}
           >
             Đơn hàng nhập kho
@@ -169,7 +169,7 @@ const Orders = () => {
               backgroundColor:
                 selectedOrderType === "Đơn hàng bán lẻ"
                   ? "aliceblue"
-                  : "#6c757d",
+                  : "antiquewhite",
             }}
           >
             Đơn hàng bán lẻ
