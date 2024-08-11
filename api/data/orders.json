@@ -1,0 +1,640 @@
+[
+  {
+    "id": 1,
+    "code": "ORD001",
+    "date": "2024-02-08",
+    "customers": "Nguyễn Bá Hạo",
+    "products": [
+      {
+        "productName": "Khẩu trang",
+        "quantity": 10
+      }
+    ],
+    "totalamount": 2000000,
+    "status": "Đang xử lý"
+  },
+  {
+    "id": 2,
+    "code": "ORD002",
+    "date": "2024-01-02",
+    "customers": "Đỗ Hoàng Long",
+    "products": [
+      {
+        "productName": "Dụng cụ sơ cứu",
+        "quantity": 50
+      },
+      {
+        "productName": "Bông",
+        "quantity": 100
+      },
+      {
+        "productName": "Máy siêu âm",
+        "quantity": 11
+      }
+    ],
+    "totalamount": 2500000,
+    "status": "Hoàn thành"
+  },
+  {
+    "id": 3,
+    "code": "ORD003",
+    "date": "2024-03-15",
+    "customers": "Hoàng Bảo Đại",
+    "products": [
+      {
+        "productName": "Bông",
+        "quantity": 1000
+      }
+    ],
+    "totalamount": 1500000,
+    "status": "Đang xử lý"
+  },
+  {
+    "id": 4,
+    "code": "ORD004",
+    "date": "2024-04-10",
+    "customers": "Dương Hồng Sơn",
+    "products": [
+      {
+        "productName": "Găng tay nitrile",
+        "quantity": 100
+      },
+      {
+        "productName": "Nhiệt kế",
+        "quantity": 500
+      },
+      {
+        "productName": "Máy đo huyết áp",
+        "quantity": 300
+      }
+    ],
+    "totalamount": 1000000,
+    "status": "Hoàn thành"
+  },
+  {
+    "id": 5,
+    "code": "ORD005",
+    "date": "2024-05-20",
+    "customers": "Nguyện Tuyết Nhi",
+    "products": [],
+    "totalamount": 3500000,
+    "status": "Đang xử lý"
+  },
+  {
+    "id": 6,
+    "code": "ORD006",
+    "date": "2024-05-04",
+    "customers": "Nguyễn Đại La",
+    "totalamount": "20000000",
+    "status": "Hoàn thành",
+    "products": [
+      {
+        "productName": "Bao đeo đầu gối",
+        "quantity": 10
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "code": "ORD007",
+    "date": "2024-05-17",
+    "customers": "Bùi Phi Hoàng",
+    "totalamount": "20000000",
+    "status": "Đã hủy",
+    "products": [
+      {
+        "productName": "Găng tay y tế",
+        "quantity": 1000
+      },
+      {
+        "productName": "Mặt nạ phòng độc",
+        "quantity": 200
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "code": "ORD008",
+    "date": "2024-02-09",
+    "customers": "Nguyện Tuyết Nhi",
+    "totalamount": "20000000",
+    "status": "Đang xử lý",
+    "products": [
+      {
+        "productName": "Mặt nạ phòng độc",
+        "quantity": 100
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "code": "ORD009",
+    "date": "2024-05-17",
+    "customers": "Tạ Quang Chiểu",
+    "totalamount": "2500000",
+    "status": "Đã hủy",
+    "products": [
+      {
+        "productName": "Mặt nạ phòng độc",
+        "quantity": 130
+      },
+      {
+        "productName": "Ống nghe",
+        "quantity": 150
+      },
+      {
+        "productName": "Bông",
+        "quantity": 1000
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "code": "ORD0010",
+    "date": "2024-03-13",
+    "customers": "Nguyễn Quốc Dũng",
+    "totalamount": "20000000",
+    "status": "Hoàn thành",
+    "products": [
+      {
+        "productName": "Bông",
+        "quantity": 153
+      },
+      {
+        "productName": "Bình oxy",
+        "quantity": 50
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "code": "ORD0011",
+    "date": "2024-05-17",
+    "customers": "Bùi Phi Hoàng",
+    "totalamount": "20000000",
+    "status": "Hoàn thành",
+    "products": [
+      {
+        "productName": "Bình oxy",
+        "quantity": 20
+      },
+      {
+        "productName": "Kẹp y tế",
+        "quantity": 450
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "code": "ORD0012",
+    "date": "2024-05-17",
+    "customers": "Trần Thái Linh",
+    "totalamount": "20000000",
+    "status": "Đang xử lý",
+    "products": [
+      {
+        "productName": "Khẩu trang",
+        "quantity": 100
+      },
+      {
+        "productName": "Áo bảo hộ",
+        "quantity": 50
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "code": "ORD0013",
+    "date": "2024-05-17",
+    "customers": "Lê Kim Mỹ",
+    "totalamount": "20000000",
+    "status": "Đã hủy",
+    "products": []
+  },
+  {
+    "id": 14,
+    "code": "ORD0014",
+    "date": "2024-05-17",
+    "customers": "Lưu Đại Hoàng",
+    "totalamount": "20000000",
+    "status": "Đang xử lý",
+    "products": []
+  },
+  {
+    "id": 15,
+    "code": "ORD0015",
+    "date": "2024-05-17",
+    "customers": "Nguyễn Quốc Dũng",
+    "totalamount": "20000000",
+    "status": "Đang xử lý",
+    "products": []
+  },
+  {
+    "id": 16,
+    "code": "ORD0016",
+    "date": "2024-05-17",
+    "customers": "Nguyễn Ngọc Bình",
+    "totalamount": "20000000",
+    "status": "Đã hủy",
+    "products": []
+  },
+  {
+    "id": 17,
+    "code": "ORD0017",
+    "date": "2024-06-20",
+    "customers": "Đỗ Đức Minh",
+    "totalamount": "100000",
+    "status": "Hoàn thành",
+    "products": [
+      {
+        "productName": "khẩu trang y tế",
+        "quantity": 100
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "code": "ORD0018",
+    "date": "2024-06-14",
+    "customers": "Dương Hồng Sơn",
+    "totalamount": "1230000",
+    "status": "Hoàn thành",
+    "products": []
+  },
+  {
+    "id": 19,
+    "code": "ORD0019",
+    "date": "2024-06-06",
+    "customers": "Trần Huyền Nhi",
+    "totalamount": "1000000",
+    "status": "Hoàn thành",
+    "products": [
+      {
+        "productName": "Kính bảo hộ",
+        "quantity": 10
+      },
+      {
+        "productName": "Nhiệt kế",
+        "quantity": 5
+      },
+      {
+        "productName": "Máy đo huyết áp",
+        "quantity": 5
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "code": "ORD0020",
+    "date": "2024-04-12",
+    "customers": "Nguyễn Văn Sinh",
+    "totalamount": "1500000",
+    "status": "Hoàn thành",
+    "products": [
+      {
+        "productName": "Kim luồn tĩnh mạch",
+        "quantity": 15
+      },
+      {
+        "productName": "Bộ dây thở",
+        "quantity": 10
+      },
+      {
+        "productName": "Siro Heviho",
+        "quantity": 50
+      },
+      {
+        "productName": "Que thử thai Baby Plus",
+        "quantity": 100
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "code": "ORD0021",
+    "date": "2024-07-16",
+    "customers": "Lưu Đại Hoàng",
+    "totalamount": "35000000",
+    "status": "Đang xử lý",
+    "products": [
+      {
+        "productName": "Bình oxy",
+        "quantity": 15
+      },
+      {
+        "productName": "Máy siêu âm",
+        "quantity": 2
+      },
+      {
+        "productName": "Dụng cụ sơ cứu",
+        "quantity": 50
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "code": "ORD0022",
+    "date": "2024-05-30",
+    "customers": "Trần Thanh Tùng",
+    "totalamount": "1000000",
+    "status": "Đang xử lý",
+    "products": [
+      {
+        "productName": "Khẩu trang",
+        "quantity": 500
+      },
+      {
+        "productName": "Băng gạc",
+        "quantity": 500
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "code": "ORD0023",
+    "date": "2024-04-25",
+    "customers": "Nguyễn Thành Minh",
+    "totalamount": "1200000",
+    "status": "Hoàn thành",
+    "products": [
+      {
+        "productName": "Ống nghe",
+        "quantity": 45
+      },
+      {
+        "productName": "Dụng cụ hô hấp",
+        "quantity": 50
+      },
+      {
+        "productName": "Bơm tiêm",
+        "quantity": 200
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "code": "ORD0024",
+    "date": "2024-06-01",
+    "customers": "Nguyễn Tất Liệt",
+    "totalamount": "15000000",
+    "status": "Hoàn thành",
+    "products": [
+      {
+        "productName": "Băng dính lụa",
+        "quantity": 150
+      },
+      {
+        "productName": "Thùng Rác y tế",
+        "quantity": 20
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "code": "ORD0025",
+    "date": "2024-04-25",
+    "customers": "Hoàng Văn Thám",
+    "totalamount": "1550000",
+    "status": "Đang xử lý",
+    "products": [
+      {
+        "productName": "Mặt nạ phòng độc",
+        "quantity": 10
+      },
+      {
+        "productName": "Que thử thai Chip-chips",
+        "quantity": 100
+      },
+      {
+        "productName": "Collagen Kakemono",
+        "quantity": 100
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "code": "ORD0026",
+    "date": "2024-05-15",
+    "customers": "Nguyễn Văn Bí",
+    "totalamount": "1580000",
+    "status": "Đang xử lý",
+    "products": [
+      {
+        "productName": "Ích Tâm Khang",
+        "quantity": 200
+      },
+      {
+        "productName": "Khăn hạ sốt",
+        "quantity": 150
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "code": "ORD0027",
+    "date": "2024-03-07",
+    "customers": "Nguyễn Văn A",
+    "totalamount": "25000000",
+    "status": "Đã hủy",
+    "products": [
+      {
+        "productName": "Kim luồn tĩnh mạch",
+        "quantity": 250
+      },
+      {
+        "productName": "Paracetamol",
+        "quantity": 150
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "code": "ORD0028",
+    "date": "2024-04-02",
+    "customers": "Đỗ Hồng Ngọc",
+    "totalamount": "3660000",
+    "status": "Hoàn thành",
+    "products": [
+      {
+        "productName": "Bao đeo đầu gối",
+        "quantity": 250
+      },
+      {
+        "productName": "Condition Curcumin Fast",
+        "quantity": 100
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "code": "ORD0029",
+    "date": "2024-07-20",
+    "customers": "Trần Hạnh Trang",
+    "totalamount": "100502000",
+    "status": "Đang xử lý",
+    "products": [
+      {
+        "productName": "Dung dịch sát khẩu",
+        "quantity": 256
+      },
+      {
+        "productName": "Máy trợ Thở",
+        "quantity": 5
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "code": "ORD0030",
+    "date": "2024-08-02",
+    "customers": "Bùi Phi Hoàng",
+    "totalamount": "25000000",
+    "status": "Đang xử lý",
+    "products": [
+      {
+        "productName": "Máy đo đường huyết",
+        "quantity": 20
+      },
+      {
+        "productName": "Bình oxy",
+        "quantity": 60
+      },
+      {
+        "productName": "Kẹp y tế",
+        "quantity": 399
+      },
+      {
+        "productName": "Dụng cụ hô hấp",
+        "quantity": 200
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "code": "ORD0031",
+    "date": "2024-07-27",
+    "customers": "Nguyễn Đại La",
+    "totalamount": "550000",
+    "status": "Đang xử lý",
+    "products": [
+      {
+        "productName": "Bông",
+        "quantity": 500
+      },
+      {
+        "productName": "Dung dịch sát khẩu",
+        "quantity": 200
+      },
+      {
+        "productName": "Dụng cụ sơ cứu",
+        "quantity": 250
+      },
+      {
+        "productName": "Kẹp y tế",
+        "quantity": 300
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "code": "ORD0032",
+    "date": "2024-06-06",
+    "customers": "Hàn Hoàng Hà",
+    "totalamount": "6500000",
+    "status": "Hoàn thành",
+    "products": [
+      {
+        "productName": "Băng dính lụa",
+        "quantity": 0
+      },
+      {
+        "productName": "Bộ dây thở",
+        "quantity": 0
+      },
+      {
+        "productName": "Găng tay y tế",
+        "quantity": 0
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "code": "ORD0033",
+    "date": "2024-05-29",
+    "customers": "Nguyễn Thành Minh",
+    "totalamount": "15000000",
+    "status": "Đã hủy",
+    "products": [
+      {
+        "productName": "Máy đo đường huyết",
+        "quantity": 100
+      },
+      {
+        "productName": "Bình oxy",
+        "quantity": 50
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "code": "ORD0034",
+    "date": "2024-07-24",
+    "customers": "Hà Văn Phú",
+    "totalamount": "85000000",
+    "status": "Đang xử lý",
+    "products": [
+      {
+        "productName": "Máy siêu âm",
+        "quantity": 2
+      },
+      {
+        "productName": "Máy đo đường huyết",
+        "quantity": 3
+      },
+      {
+        "productName": "Bông",
+        "quantity": 500
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "code": "ORD0035",
+    "date": "2024-06-07",
+    "customers": "Võ Tấn Phát",
+    "totalamount": "45000000",
+    "status": "Hoàn thành",
+    "products": [
+      {
+        "productName": "Bao đeo đầu gối",
+        "quantity": 200
+      },
+      {
+        "productName": "Băng dính lụa",
+        "quantity": 100
+      },
+      {
+        "productName": "Khóa ba chạc",
+        "quantity": 60
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "code": "ORD0036",
+    "date": "2024-05-30",
+    "customers": "Dương Hồng Sơn",
+    "totalamount": "36000000",
+    "status": "Đã hủy",
+    "products": [
+      {
+        "productName": "Kem Dizigone Nano",
+        "quantity": 60
+      },
+      {
+        "productName": "Máy đo nồng độ oxy trong máu",
+        "quantity": 100
+      }
+    ]
+  }
+]
