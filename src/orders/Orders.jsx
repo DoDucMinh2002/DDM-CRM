@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
 import { Button, Modal, Table, Pagination, Col, Row } from "react-bootstrap";
-import OrderForm from "./OrderForm";
+import OrderForm from "../orders/js/OrderForm";
 import axios from "axios";
 import ordersStyles from "../orders/scss/Orders.module.scss";
-import customerStyles from "../customers/Customers.module.scss";
+import customerStyles from "../customers/scss/Customers.module.scss";
 import Head from "../headlast/Head";
 
 const Orders = () => {
@@ -14,6 +14,8 @@ const Orders = () => {
   const [currentPage, setCurrentPage] = useState(1);
   const pageSize = 10;
   const [successMessage, setSuccessMessage] = useState("");
+  const [selectedOrderType, setSelectedOrderType] = useState("import");
+
   useEffect(() => {
     fetchOrders();
   }, []);
@@ -93,22 +95,33 @@ const Orders = () => {
     }
   };
 
-  const filteredOrders = orders.filter((order) => {
+  const handleOrderTypeChange = (type) => {
+    setSelectedOrderType(type);
+  };
+
+  // Lọc đơn hàng theo loại đơn hàng
+  const filteredOrders = orders.filter(
+    (order) => order.ordertype === selectedOrderType
+  );
+
+  // Lọc tiếp theo tên khách hàng
+  const searchedOrders = filteredOrders.filter((order) => {
     const customerName = order.customers || "";
     return customerName.toLowerCase().includes(searchTerm.toLowerCase());
   });
 
-  const currentOrders = filteredOrders.slice(
+  // Phân trang
+  const currentOrders = searchedOrders.slice(
     (currentPage - 1) * pageSize,
     currentPage * pageSize
   );
 
-  const totalPages = Math.ceil(filteredOrders.length / pageSize);
+  const totalPages = Math.ceil(searchedOrders.length / pageSize);
 
   return (
     <div className={ordersStyles.ordersContainer}>
       <Head />
-      <div style={{display:'flex',alignItems:'center'}}>
+      <div style={{ display: "flex", alignItems: "center" }}>
         <h2 className={ordersStyles.pageTitle}>Quản lý đơn hàng</h2>
         {successMessage && (
           <div className={ordersStyles.successmessage}>{successMessage}</div>
@@ -135,8 +148,34 @@ const Orders = () => {
           </Button>
         </Col>
       </Row>
-
       <div style={{ paddingLeft: "50px", paddingRight: "50px" }}>
+        <div>
+          <button
+            className={ordersStyles.buttonKH}
+            onClick={() => handleOrderTypeChange("Đơn hàng nhập kho")}
+            style={{
+              backgroundColor:
+                selectedOrderType === "Đơn hàng nhập kho"
+                  ? "aliceblue"
+                  : "#6c757d",
+            }}
+          >
+            Đơn hàng nhập kho
+          </button>
+          <button
+            className={ordersStyles.buttonNsx}
+            onClick={() => handleOrderTypeChange("Đơn hàng bán lẻ")}
+            style={{
+              backgroundColor:
+                selectedOrderType === "Đơn hàng bán lẻ"
+                  ? "aliceblue"
+                  : "#6c757d",
+            }}
+          >
+            Đơn hàng bán lẻ
+          </button>
+        </div>
+
         <Table striped hover>
           <thead>
             <tr>

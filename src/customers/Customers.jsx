@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { Button, Modal, Table, Pagination } from "react-bootstrap";
-import CustomerForm from "./CustomerForm";
+import CustomerForm from "./js/CustomerForm";
 import axios from "axios";
-import customerStyles from "./Customers.module.scss";
+import customerStyles from "../customers/scss/Customers.module.scss";
 import Head from "../headlast/Head";
 import Last from "../headlast/Last";
 const Customers = () => {
@@ -128,7 +128,7 @@ const Customers = () => {
       }}
     >
       <Head />
-      <div style={{display:'flex', alignItems:'center'}}>
+      <div style={{ display: "flex", alignItems: "center" }}>
         <h2 className={customerStyles.h2}>Quản ký khách hàng</h2>
         {successMessage && (
           <div className={customerStyles.successmessage}>{successMessage}</div>
@@ -149,6 +149,13 @@ const Customers = () => {
           className={customerStyles.buttonT}
         >
           Thêm Khách hàng
+        </Button>
+        <Button
+          variant="primary"
+          onClick={() => handleOpenModal()}
+          className={customerStyles.buttonVip}
+        >
+          Khách hàng Vip
         </Button>
       </div>
 

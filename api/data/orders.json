@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "code": "ORD001",
+    "code": "OPO001",
     "date": "2024-02-08",
     "customers": "Nguyễn Bá Hạo",
     "products": [
@@ -11,11 +11,13 @@
       }
     ],
     "totalamount": 2000000,
-    "status": "Đang xử lý"
+    "status": "Đang xử lý",
+    "ordertype": "Đơn hàng nhập kho",
+    "phone": "0123456789"
   },
   {
     "id": 2,
-    "code": "ORD002",
+    "code": "OPO002",
     "date": "2024-01-02",
     "customers": "Đỗ Hoàng Long",
     "products": [
@@ -33,11 +35,13 @@
       }
     ],
     "totalamount": 2500000,
-    "status": "Hoàn thành"
+    "status": "Hoàn thành",
+    "phone": "0123456789",
+    "ordertype": "Đơn hàng nhập kho"
   },
   {
     "id": 3,
-    "code": "ORD003",
+    "code": "OPO003",
     "date": "2024-03-15",
     "customers": "Hoàng Bảo Đại",
     "products": [
@@ -47,11 +51,13 @@
       }
     ],
     "totalamount": 1500000,
-    "status": "Đang xử lý"
+    "status": "Đang xử lý",
+    "ordertype": "Đơn hàng nhập kho",
+    "phone": "0123456789"
   },
   {
     "id": 4,
-    "code": "ORD004",
+    "code": "OPO004",
     "date": "2024-04-10",
     "customers": "Dương Hồng Sơn",
     "products": [
@@ -69,20 +75,24 @@
       }
     ],
     "totalamount": 1000000,
-    "status": "Hoàn thành"
+    "status": "Hoàn thành",
+    "ordertype": "Đơn hàng nhập kho",
+    "phone": "0123456789"
   },
   {
     "id": 5,
-    "code": "ORD005",
+    "code": "OPO005",
     "date": "2024-05-20",
     "customers": "Nguyện Tuyết Nhi",
     "products": [],
     "totalamount": 3500000,
-    "status": "Đang xử lý"
+    "status": "Đang xử lý",
+    "ordertype": "Đơn hàng nhập kho",
+    "phone": "0123456789"
   },
   {
     "id": 6,
-    "code": "ORD006",
+    "code": "OPO006",
     "date": "2024-05-04",
     "customers": "Nguyễn Đại La",
     "totalamount": "20000000",
@@ -92,11 +102,13 @@
         "productName": "Bao đeo đầu gối",
         "quantity": 10
       }
-    ]
+    ],
+    "ordertype": "Đơn hàng nhập kho",
+    "phone": "0123456789"
   },
   {
     "id": 7,
-    "code": "ORD007",
+    "code": "OPO007",
     "date": "2024-05-17",
     "customers": "Bùi Phi Hoàng",
     "totalamount": "20000000",
@@ -110,11 +122,13 @@
         "productName": "Mặt nạ phòng độc",
         "quantity": 200
       }
-    ]
+    ],
+    "ordertype": "Đơn hàng nhập kho",
+    "phone": "0123456789"
   },
   {
     "id": 8,
-    "code": "ORD008",
+    "code": "OPO008",
     "date": "2024-02-09",
     "customers": "Nguyện Tuyết Nhi",
     "totalamount": "20000000",
@@ -124,11 +138,13 @@
         "productName": "Mặt nạ phòng độc",
         "quantity": 100
       }
-    ]
+    ],
+    "ordertype": "Đơn hàng nhập kho",
+    "phone": "0123456789"
   },
   {
     "id": 9,
-    "code": "ORD009",
+    "code": "OPO009",
     "date": "2024-05-17",
     "customers": "Tạ Quang Chiểu",
     "totalamount": "2500000",
@@ -146,11 +162,13 @@
         "productName": "Bông",
         "quantity": 1000
       }
-    ]
+    ],
+    "ordertype": "Đơn hàng nhập kho",
+    "phone": "0123456789"
   },
   {
     "id": 10,
-    "code": "ORD0010",
+    "code": "OPO0010",
     "date": "2024-03-13",
     "customers": "Nguyễn Quốc Dũng",
     "totalamount": "20000000",
@@ -164,11 +182,13 @@
         "productName": "Bình oxy",
         "quantity": 50
       }
-    ]
+    ],
+    "ordertype": "Đơn hàng nhập kho",
+    "phone": "0123456789"
   },
   {
     "id": 11,
-    "code": "ORD0011",
+    "code": "OPO0011",
     "date": "2024-05-17",
     "customers": "Bùi Phi Hoàng",
     "totalamount": "20000000",
@@ -182,11 +202,13 @@
         "productName": "Kẹp y tế",
         "quantity": 450
       }
-    ]
+    ],
+    "ordertype": "Đơn hàng nhập kho",
+    "phone": "0123456789"
   },
   {
     "id": 12,
-    "code": "ORD0012",
+    "code": "OPO0012",
     "date": "2024-05-17",
     "customers": "Trần Thái Linh",
     "totalamount": "20000000",
@@ -200,47 +222,57 @@
         "productName": "Áo bảo hộ",
         "quantity": 50
       }
-    ]
+    ],
+    "ordertype": "Đơn hàng nhập kho",
+    "phone": "0123456789"
   },
   {
     "id": 13,
-    "code": "ORD0013",
+    "code": "OPO0013",
     "date": "2024-05-17",
     "customers": "Lê Kim Mỹ",
     "totalamount": "20000000",
     "status": "Đã hủy",
-    "products": []
+    "products": [],
+    "ordertype": "Đơn hàng nhập kho",
+    "phone": "0123456789"
   },
   {
     "id": 14,
-    "code": "ORD0014",
+    "code": "OPO0014",
     "date": "2024-05-17",
     "customers": "Lưu Đại Hoàng",
     "totalamount": "20000000",
     "status": "Đang xử lý",
-    "products": []
+    "products": [],
+    "ordertype": "Đơn hàng nhập kho",
+    "phone": "0123456789"
   },
   {
     "id": 15,
-    "code": "ORD0015",
+    "code": "OPO0015",
     "date": "2024-05-17",
     "customers": "Nguyễn Quốc Dũng",
     "totalamount": "20000000",
     "status": "Đang xử lý",
-    "products": []
+    "products": [],
+    "ordertype": "Đơn hàng nhập kho",
+    "phone": "0123456789"
   },
   {
     "id": 16,
-    "code": "ORD0016",
+    "code": "OPO0016",
     "date": "2024-05-17",
     "customers": "Nguyễn Ngọc Bình",
     "totalamount": "20000000",
     "status": "Đã hủy",
-    "products": []
+    "products": [],
+    "ordertype": "Đơn hàng nhập kho",
+    "phone": "0123456789"
   },
   {
     "id": 17,
-    "code": "ORD0017",
+    "code": "OPO0017",
     "date": "2024-06-20",
     "customers": "Đỗ Đức Minh",
     "totalamount": "100000",
@@ -250,20 +282,29 @@
         "productName": "khẩu trang y tế",
         "quantity": 100
       }
-    ]
+    ],
+    "ordertype": "Đơn hàng nhập kho",
+    "phone": "0123456789"
   },
   {
     "id": 18,
-    "code": "ORD0018",
+    "code": "OPO0018",
     "date": "2024-06-14",
     "customers": "Dương Hồng Sơn",
     "totalamount": "1230000",
     "status": "Hoàn thành",
-    "products": []
+    "products": [
+      {
+        "productName": "11",
+        "quantity": 11
+      }
+    ],
+    "ordertype": "Đơn hàng nhập kho",
+    "phone": "0123456789"
   },
   {
     "id": 19,
-    "code": "ORD0019",
+    "code": "OPO0019",
     "date": "2024-06-06",
     "customers": "Trần Huyền Nhi",
     "totalamount": "1000000",
@@ -281,11 +322,13 @@
         "productName": "Máy đo huyết áp",
         "quantity": 5
       }
-    ]
+    ],
+    "ordertype": "Đơn hàng nhập kho",
+    "phone": "0123456789"
   },
   {
     "id": 20,
-    "code": "ORD0020",
+    "code": "OPO0020",
     "date": "2024-04-12",
     "customers": "Nguyễn Văn Sinh",
     "totalamount": "1500000",
@@ -307,11 +350,13 @@
         "productName": "Que thử thai Baby Plus",
         "quantity": 100
       }
-    ]
+    ],
+    "ordertype": "Đơn hàng nhập kho",
+    "phone": "0123456789"
   },
   {
     "id": 21,
-    "code": "ORD0021",
+    "code": "OSO1",
     "date": "2024-07-16",
     "customers": "Lưu Đại Hoàng",
     "totalamount": "35000000",
@@ -329,11 +374,13 @@
         "productName": "Dụng cụ sơ cứu",
         "quantity": 50
       }
-    ]
+    ],
+    "ordertype": "Đơn hàng bán lẻ",
+    "phone": "0123456789"
   },
   {
     "id": 22,
-    "code": "ORD0022",
+    "code": "OSO2",
     "date": "2024-05-30",
     "customers": "Trần Thanh Tùng",
     "totalamount": "1000000",
@@ -347,11 +394,13 @@
         "productName": "Băng gạc",
         "quantity": 500
       }
-    ]
+    ],
+    "ordertype": "Đơn hàng bán lẻ",
+    "phone": "0123456789"
   },
   {
     "id": 23,
-    "code": "ORD0023",
+    "code": "OSO3",
     "date": "2024-04-25",
     "customers": "Nguyễn Thành Minh",
     "totalamount": "1200000",
@@ -369,11 +418,13 @@
         "productName": "Bơm tiêm",
         "quantity": 200
       }
-    ]
+    ],
+    "ordertype": "Đơn hàng bán lẻ",
+    "phone": "0123456789"
   },
   {
     "id": 24,
-    "code": "ORD0024",
+    "code": "OSO4",
     "date": "2024-06-01",
     "customers": "Nguyễn Tất Liệt",
     "totalamount": "15000000",
@@ -387,11 +438,13 @@
         "productName": "Thùng Rác y tế",
         "quantity": 20
       }
-    ]
+    ],
+    "ordertype": "Đơn hàng bán lẻ",
+    "phone": "0123456789"
   },
   {
     "id": 25,
-    "code": "ORD0025",
+    "code": "OSO5",
     "date": "2024-04-25",
     "customers": "Hoàng Văn Thám",
     "totalamount": "1550000",
@@ -409,11 +462,13 @@
         "productName": "Collagen Kakemono",
         "quantity": 100
       }
-    ]
+    ],
+    "ordertype": "Đơn hàng bán lẻ",
+    "phone": "0123456789"
   },
   {
     "id": 26,
-    "code": "ORD0026",
+    "code": "OSO6",
     "date": "2024-05-15",
     "customers": "Nguyễn Văn Bí",
     "totalamount": "1580000",
@@ -427,11 +482,13 @@
         "productName": "Khăn hạ sốt",
         "quantity": 150
       }
-    ]
+    ],
+    "ordertype": "Đơn hàng bán lẻ",
+    "phone": "0123456789"
   },
   {
     "id": 27,
-    "code": "ORD0027",
+    "code": "OSO7",
     "date": "2024-03-07",
     "customers": "Nguyễn Văn A",
     "totalamount": "25000000",
@@ -445,11 +502,13 @@
         "productName": "Paracetamol",
         "quantity": 150
       }
-    ]
+    ],
+    "ordertype": "Đơn hàng bán lẻ",
+    "phone": "0123456789"
   },
   {
     "id": 28,
-    "code": "ORD0028",
+    "code": "OSO8",
     "date": "2024-04-02",
     "customers": "Đỗ Hồng Ngọc",
     "totalamount": "3660000",
@@ -463,11 +522,13 @@
         "productName": "Condition Curcumin Fast",
         "quantity": 100
       }
-    ]
+    ],
+    "ordertype": "Đơn hàng bán lẻ",
+    "phone": "0123456789"
   },
   {
     "id": 29,
-    "code": "ORD0029",
+    "code": "OSO9",
     "date": "2024-07-20",
     "customers": "Trần Hạnh Trang",
     "totalamount": "100502000",
@@ -481,11 +542,13 @@
         "productName": "Máy trợ Thở",
         "quantity": 5
       }
-    ]
+    ],
+    "ordertype": "Đơn hàng bán lẻ",
+    "phone": "0123456789"
   },
   {
     "id": 30,
-    "code": "ORD0030",
+    "code": "OSO10",
     "date": "2024-08-02",
     "customers": "Bùi Phi Hoàng",
     "totalamount": "25000000",
@@ -507,11 +570,13 @@
         "productName": "Dụng cụ hô hấp",
         "quantity": 200
       }
-    ]
+    ],
+    "ordertype": "Đơn hàng bán lẻ",
+    "phone": "0123456789"
   },
   {
     "id": 31,
-    "code": "ORD0031",
+    "code": "OSO11",
     "date": "2024-07-27",
     "customers": "Nguyễn Đại La",
     "totalamount": "550000",
@@ -533,11 +598,13 @@
         "productName": "Kẹp y tế",
         "quantity": 300
       }
-    ]
+    ],
+    "ordertype": "Đơn hàng bán lẻ",
+    "phone": "0123456789"
   },
   {
     "id": 32,
-    "code": "ORD0032",
+    "code": "OSO12",
     "date": "2024-06-06",
     "customers": "Hàn Hoàng Hà",
     "totalamount": "6500000",
@@ -555,11 +622,13 @@
         "productName": "Găng tay y tế",
         "quantity": 0
       }
-    ]
+    ],
+    "ordertype": "Đơn hàng bán lẻ",
+    "phone": "0123456789"
   },
   {
     "id": 33,
-    "code": "ORD0033",
+    "code": "OSO13",
     "date": "2024-05-29",
     "customers": "Nguyễn Thành Minh",
     "totalamount": "15000000",
@@ -573,11 +642,13 @@
         "productName": "Bình oxy",
         "quantity": 50
       }
-    ]
+    ],
+    "ordertype": "Đơn hàng bán lẻ",
+    "phone": "0123456789"
   },
   {
     "id": 34,
-    "code": "ORD0034",
+    "code": "OSO14",
     "date": "2024-07-24",
     "customers": "Hà Văn Phú",
     "totalamount": "85000000",
@@ -595,11 +666,13 @@
         "productName": "Bông",
         "quantity": 500
       }
-    ]
+    ],
+    "ordertype": "Đơn hàng bán lẻ",
+    "phone": "0123456789"
   },
   {
     "id": 35,
-    "code": "ORD0035",
+    "code": "OSO15",
     "date": "2024-06-07",
     "customers": "Võ Tấn Phát",
     "totalamount": "45000000",
@@ -617,11 +690,13 @@
         "productName": "Khóa ba chạc",
         "quantity": 60
       }
-    ]
+    ],
+    "ordertype": "Đơn hàng bán lẻ",
+    "phone": "0123456789"
   },
   {
     "id": 36,
-    "code": "ORD0036",
+    "code": "OSO16",
     "date": "2024-05-30",
     "customers": "Dương Hồng Sơn",
     "totalamount": "36000000",
@@ -634,6 +709,24 @@
       {
         "productName": "Máy đo nồng độ oxy trong máu",
         "quantity": 100
+      }
+    ],
+    "ordertype": "Đơn hàng bán lẻ",
+    "phone": "0123456789"
+  },
+  {
+    "id": 37,
+    "code": "OSO17",
+    "ordertype": "Đơn hàng bán lẻ",
+    "date": "2024-05-04",
+    "customers": "Nguyễn Đại La",
+    "totalamount": "20000000",
+    "status": "Hoàn thành",
+    "phone": "0123456789",
+    "products": [
+      {
+        "productName": "Bao đeo đầu gối",
+        "quantity": 10
       }
     ]
   }

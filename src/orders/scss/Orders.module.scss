@@ -47,7 +47,7 @@
   width: 100%;
   height: 50px;
   background-color: rgb(42, 63, 84);
-  margin-top: 118px;
+  margin-top: 77px;
   // border-left: 2px solid white;
   border-right: 2px solid white;
   color: white;
@@ -67,4 +67,30 @@
   justify-content: center;
   font-size: 14px;
   border-radius: 14px;
+}
+.buttonNsx {
+  border: 2px solid;
+  height: 33px;
+  font-size: 16px;
+  font-family: auto;
+  width: 140px;
+  background-color: aliceblue;
+  margin-bottom: 8px;
+}
+.buttonNsx:hover {
+  color: red;
+  border: 2px solid black;
+}
+.buttonKH {
+  border: 2px solid;
+  height: 33px;
+  font-size: 16px;
+  font-family: auto;
+  width: 150px;
+  background-color: aliceblue;
+  margin-bottom: 8px;
+}
+.buttonKH:hover {
+  color: red;
+  border: 2px solid black;
 }

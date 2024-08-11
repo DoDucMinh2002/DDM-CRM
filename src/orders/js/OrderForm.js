@@ -3,10 +3,12 @@ import React, { useState, useEffect } from "react";
 const OrderForm = ({ order, onSave, onCancel }) => {
   const [formData, setFormData] = useState({
     code: "",
+    ordertype:"",
     date: "",
     customers: "",
     totalamount: "",
     status: "",
+    phone:"",
     products: [], // Initialize products as an empty array
   });
 
@@ -14,10 +16,12 @@ const OrderForm = ({ order, onSave, onCancel }) => {
     if (order) {
       setFormData({
         code: order.code,
+        ordertype: order.ordertype,
         date: order.date,
         customers: order.customers,
         totalamount: order.totalamount,
         status: order.status,
+        phone: order.phone,
         products: order.products || [], // Ensure products is an array
       });
     }
@@ -69,6 +73,22 @@ const OrderForm = ({ order, onSave, onCancel }) => {
         />
       </div>
       <div>
+        <label>Loại đơn hàng</label>
+        <select
+          name="ordertype"
+          value={formData.ordertype}
+          onChange={handleChange}
+          required
+          className="form-control"
+        >
+          <option value="" disabled>
+            Chọn trạng thái
+          </option>
+          <option value="Đơn hàng nhập kho">Đơn hàng nhập kho</option>
+          <option value="Đơn hàng bán lẻ">Đơn hàng bán lẻ</option>
+        </select>
+      </div>
+      <div>
         <label>Ngày</label>
         <input
           type="date"
@@ -86,6 +106,18 @@ const OrderForm = ({ order, onSave, onCancel }) => {
           type="text"
           name="customers"
           value={formData.customers}
+          onChange={handleChange}
+          required
+          className="form-control"
+        />
+      </div>
+      <div>
+        <label>Số điện thoại</label>
+        {/* <div>{formData.customers}</div> */}
+        <input
+          type="text"
+          name="phone"
+          value={formData.phone}
           onChange={handleChange}
           required
           className="form-control"

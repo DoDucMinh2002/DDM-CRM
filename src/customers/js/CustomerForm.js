@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Form, Button, Row, Col } from "react-bootstrap";
-import Cousto from "./Customers.module.scss";
+import Cousto from "../scss/Customers.module.scss";
 
 function CustomerForm({ customer, onSave }) {
   const [formData, setFormData] = useState({

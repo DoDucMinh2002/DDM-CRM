@@ -9,7 +9,7 @@ const usersRouter = require("./routes/users");
 
 app.use(
   cors({
-    origin: "https://ddm-bjjmeoozn-doducminh2002s-projects.vercel.app",
+    origin: " http://localhost:3000",
   })
 );
 app.use(express.json());

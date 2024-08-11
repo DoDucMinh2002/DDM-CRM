@@ -84,3 +84,14 @@
     font-size: 14px;
     border-radius: 14px;
 }
+.buttonVip{
+    width: 13%;
+    height: 38px;
+    // margin-left: auto;
+    border: none;
+    border-radius: 10px;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+    background-color: #1976D2;
+    color: white;
+}
